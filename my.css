@@ -430,7 +430,7 @@ ul li  button:hover {
         color: #fff;
 }
 .call-block__section {
-        background-image: url(/img/background.jpg);
+        background-image: url(img/background.jpg);
         background-size: cover;
 }
 .call-block__overlay {
