@@ -149,22 +149,22 @@
 }
 .about-us__slider .slick-arrow.slick-prev {
         left: 0px;
-        background: url('img/Left.png') 0 0 / 100% no-repeat;
+        background: url('Left.png') 0 0 / 100% no-repeat;
         filter: opacity(50%);
 }
 .about-us__slider .slick-arrow.slick-next {
         right: 0px;
-        background: url('img/Right.png') 0 0 / 100% no-repeat;
+        background: url('Right.png') 0 0 / 100% no-repeat;
         filter: opacity(50%);
 }
 .about-us__slider .slick-arrow.slick-prev:hover {
         left: 0px;
-        background: url('img/Left-hover.png') 0 0 / 100% no-repeat;
+        background: url('Left-hover.png') 0 0 / 100% no-repeat;
         filter: opacity(100%);
 }
 .about-us__slider .slick-arrow.slick-next:hover {
         right: 0px;
-        background: url('img/Right-hover.png') 0 0 / 100% no-repeat;
+        background: url('Right-hover.png') 0 0 / 100% no-repeat;
         filter: opacity(100%);
 }
 .about-us__slider .slick-arrow {
