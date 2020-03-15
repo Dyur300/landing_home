@@ -17,7 +17,7 @@ body {
 /*----HEADER----*/
 .header {
         min-height: 645px;
-        background-image: url(img/header_background.jpeg);
+        background-image: url(header_background.jpeg);
         background-size: cover;
         position: relative;
 }
