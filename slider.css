@@ -1,6 +1,5 @@
 
-.slick-slider{
-}
+
 .slick-list {
         overflow: hidden;
         padding: 0 0px;
@@ -9,53 +8,12 @@
         display: flex;
         align-items: flex-start;
 }
-.slick-slide {
 
-}
-.slick-slide.slick-active {
-
-}
-.slick-slide.slick-current {
-
-}
-.slick-slide.slick-center {
-
-}
-
-.slick-arrow {
-
-}
-.slick-arrow.slick-prev {
-
-}
-.slick-arrow.slick-next {
-
-}
-.slick-arrow.slick-disabled {
-
-}
-
-
-.slick-dots {
-
-}
-.slick-dots li {
-
-}
-.slick-dots button {
-
-}
-
-
-.clients {
-}
 .clients__background {
         background-color: #eeeeee;
         padding: 95px 0;
 }
-.clients__container {
 
-}
 .clients__slider-logo {
         display: flex;
         align-items: center;
