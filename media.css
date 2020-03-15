@@ -164,9 +164,15 @@
 @media (max-width: 820px) {
         .blog__row {
           flex-direction: column;
+          align-items: center;
+          /* width: 105%; */
+          margin: 0 0;
         }
         .blog__body {
-          padding: 20px 0 0 18px;
+          padding: 40px 4px 0 4px;
+        }
+        .blog__image {
+          padding: 0 4px;
         }
         .blog__image img {
           width: 100%;
@@ -177,10 +183,25 @@
           padding: 0 0 0 0;
         }
         .sheet .sheet__item {
-          margin: 0 1.2% 2.4 1.2%;
+          margin: 0 1.2% 2.4 1.2%;}
 
+        .sheet__item-overlay {
+          display: none;
+          opacity: 0;
+          cursor: default;
+        }
+        .sheet__item-overlay.active {
+          display: inline-block;
+          opacity: 1;
+        }
+        .sheet__link {
+          display: none;
+        }
 }
-  
+@media (min-width:767px) {
+        .sheet__item-overlay:hover {
+          opacity: 1;
+        }
 }
 @media (max-width:726px) {
         .clients {

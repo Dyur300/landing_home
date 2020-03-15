@@ -129,3 +129,10 @@ $(document).ready(function(){
       $('.home__nav, .header__burger').removeClass('active');
     });
 });
+$(document).ready(function(){
+  $('.sheet__item').click(function(event){
+    $('.sheet__item-overlay').removeClass('active');
+    $('.sheet__item-overlay', this).toggleClass('active');
+    $('.sheet__link').show();
+  });
+});
