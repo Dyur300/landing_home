@@ -242,6 +242,7 @@ body {
         padding: 0 25px;
 }
 .about-us__column {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
