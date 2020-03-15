@@ -682,10 +682,15 @@ ul li  button:hover {
 .contact__item-icon-title {
         display: flex;
         align-items: center;
-        
 }
-.contact__item-icon {
-        font-size: 18px;
+.contact__item-icon .fa-map-marker {
+        font-size: 25px;
+}
+.contact__item-icon .fa-mobile {
+        font-size: 25px;
+}
+.contact__item-icon .fa-envelope-o {
+        font-size: 17px;
 }
 .contact__item-title {
         font-family: Montserrat;
