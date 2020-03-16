@@ -138,6 +138,18 @@
           font-size: 12px;
         }
 }
+@media (max-width:450px) and (min-width: 350px) {
+        .sheet__link {
+          padding: 10px 13px;
+        }
+        .sheet__link-txt {
+          font-size: 12px;
+        }
+        .sheet__link-icon {
+          font-size: 16px;
+          margin-left: 3px;
+        }
+}
 @media (max-width:1170px) {
         .sheet__item {
           flex: 0 0 30.333%;
