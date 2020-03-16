@@ -142,16 +142,16 @@
         background: url('Left-mobile.png') 0 0 / 100% no-repeat;
         }
         .about-us__slider .slick-arrow.slick-prev:hover {
-                background: url('Left-mobile-hover.png') 0 0 / 100% no-repeat;
-                filter: opacity(80%);
+        background: url('Left-mobile-hover.png') 0 0 / 100% no-repeat;
+        filter: opacity(80%);
         }
         .about-us__slider .slick-arrow.slick-next {
-                background: url('Right-mobile.png') 0 0 / 100% no-repeat;
-                }
-                .about-us__slider .slick-arrow.slick-next:hover {
-                        background: url('Right-mobile-hover.png') 0 0 / 100% no-repeat;
-                        filter: opacity(80%);
-                }
+        background: url('Right-mobile.png') 0 0 / 100% no-repeat;
+        }
+        .about-us__slider .slick-arrow.slick-next:hover {
+        background: url('Right-mobile-hover.png') 0 0 / 100% no-repeat;
+        filter: opacity(80%);
+        }
         .about-us__slider .slick-arrow {
         position: absolute;
         top: 50%;

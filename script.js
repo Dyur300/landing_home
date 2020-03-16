@@ -136,3 +136,33 @@ $(document).ready(function(){
     $('.sheet__link').show();
   });
 });
+$(document).ready(function(){
+  $('.about-us__slider-item').click(function(event){
+    $('.slider__image-overlay').removeClass('active');
+    $('.slider__image-overlay', this).toggleClass('active');
+  });
+});
+$(document).ready(function(){
+  $('.overlayFade').click(function(event){
+    $(this).removeClass('active');
+  });
+});
+
+
+$(document).ready(function(){
+  var header = $('.header'),
+  scrollPrev = 100;
+
+$(window).scroll(function() {
+var scrolled = $(window).scrollTop();
+
+if ( scrolled > 100 && scrolled > scrollPrev ) {
+  header.addClass('out');
+} else {
+  header.removeClass('out');
+}
+scrollPrev = scrolled;
+});
+});
+
+
