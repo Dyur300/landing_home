@@ -114,11 +114,11 @@ $(document).ready(function(){
       $('body').toggleClass('lock')
     });
 
-
     $('.home__nav a').click(function(event){
       $('body').removeClass('lock')
       $('.home__nav, .header__burger').removeClass('active');
     });
+
 });
 
 $(document).ready(function(){
@@ -152,7 +152,7 @@ $(document).mouseup(function (e){
 
 $(document).ready(function(){
   var header = $('.header'),
-  scrollPrev = 100;
+  scrollPrev = 0;
 
 $(window).scroll(function() {
 var scrolled = $(window).scrollTop();
