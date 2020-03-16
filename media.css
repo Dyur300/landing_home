@@ -7,7 +7,7 @@
           padding: 50px 0;
         }
         .about-us__container {
-          padding: 0 2%;
+          padding: 0 13px;
         }
         .services__maincontent {
           padding: 50px 0;
@@ -178,14 +178,7 @@
         .blog__row {
           flex-direction: column;
           align-items: center;
-          /* width: 105%; */
-          margin: 0 0;
-        }
-        .blog__body {
-          padding: 40px 4px 0 4px;
-        }
-        .blog__image {
-          padding: 0 4px;
+          padding: 0 5px;
         }
         .blog__image img {
           width: 100%;
@@ -196,7 +189,7 @@
           padding: 0 0 0 0;
         }
         .sheet .sheet__item {
-          margin: 0 1.2% 2.4 1.2%;}
+          margin: 0 1.2% 2.4% 1.2%;}
 
         .sheet__item-overlay {
           display: none;
@@ -288,7 +281,7 @@
           font-size: 20px;
         }
         .sheet {
-          padding: 10px 0 0 0;
+          padding: 12px 5px 0 5px;
         }
         .filter {
           color: #ddd;
