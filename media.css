@@ -57,6 +57,9 @@
         }
 }
 @media (max-width:550px) {
+        .header.out {
+          transform: translateY(-100%);
+        }
         .services__column {
           flex: 0 1 100%;
 
@@ -488,10 +491,6 @@
           left: 0;
           z-index: 1010;
           transition: all .3s ease;
-        }
-        .header.out {
-          /* transform: translateY(-100%); */
-          opacity: 0;
         }
         .header::before {
           content: "";
